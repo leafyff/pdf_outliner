@@ -1,0 +1,44 @@
+{
+  "_comment": "Перейменуйте цей файл на config.json, щоб програма його підхопила. Будь-який параметр можна прибрати — тоді діятиме значення за замовчуванням. Ключі командного рядка мають вищий пріоритет за цей файл.",
+
+  "input_dir": "data",
+  "output_dir": null,
+  "recursive": false,
+
+  "_comment_existing": "keep — перенести наявний у PDF зміст; regenerate — побудувати новий; skip — не чіпати такі файли",
+  "existing": "keep",
+
+  "_comment_fallback": "none — не створювати файл, якщо заголовків немає; pages — зробити закладку на кожну сторінку",
+  "fallback": "none",
+
+  "add_title_node": false,
+  "open_bookmarks": true,
+  "expand_levels": null,
+  "incremental": true,
+  "skip_existing": false,
+  "show_tree": true,
+
+  "_comment_export": "Перетворювач md -> PDF (export.bat). vault: null — взяти сховище, відкрите в Obsidian; інакше назва або повний шлях. margin: default | minimal | none. outline: md — зміст будує програма з розмітки (швидко); chromium — сам друкар, але тоді PDF виходить тегованим: на великих нотатках це хвилини й файл у рази більший.",
+  "export": {
+    "vault": null,
+    "input_dir": "md",
+    "output_dir": null,
+    "page_size": "A4",
+    "include_name": true,
+    "downscale": 100,
+    "landscape": false,
+    "margin": "default",
+    "outline": "md",
+    "timeout": 180,
+    "open_result": false
+  },
+
+  "detection": {
+    "_comment": "Пороги детектора заголовків. Чим більший score_threshold, тим суворіший відбір.",
+    "score_threshold": 3.5,
+    "max_depth": 4,
+    "max_title_chars": 200,
+    "max_title_words": 25,
+    "max_headings_per_page": 6.0
+  }
+}
