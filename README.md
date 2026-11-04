@@ -13,7 +13,7 @@ bookmarks panel already shown.
 
 Run any of these on a Markdown note:
 
-- **Command palette** → *PDF Outline Export: Export current note to PDF with outline*
+- **Command palette** → *PDF Outline Export: Export current note to PDF with outline* (Ctrl + P)
 - **File menu** (right-click a note in the file explorer, or the note's `⋯`
   menu) → *Export to PDF with outline*
 
