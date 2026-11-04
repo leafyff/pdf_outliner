@@ -1,0 +1,10 @@
+{
+  "id": "pdf-outline-export",
+  "name": "PDF Outline Export",
+  "version": "1.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Export notes to PDF with Obsidian's built-in exporter, plus a clickable outline (bookmarks) built from the note's headings.",
+  "author": "Leaf",
+  "authorUrl": "https://github.com/leafyff",
+  "isDesktopOnly": true
+}

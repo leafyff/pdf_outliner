@@ -1,0 +1,9 @@
+/* Off-screen container used once per session to load the math fonts before printing. */
+.pdf-outline-export-warmup {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+    width: 400px;
+    opacity: 0;
+    pointer-events: none;
+}

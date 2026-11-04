@@ -1,10 +1,5 @@
-.venv/
-__pycache__/
-*.pyc
 .idea/
-config.json
-data/*.pdf
-!data/README.txt
-md/*.md
-md/*.pdf
-!md/README.txt
+.vscode/
+node_modules/
+data.json
+*.pdf
